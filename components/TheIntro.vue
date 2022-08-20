@@ -7,6 +7,7 @@
         <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
           <h1 class="display-4 fw-bold lh-1">
             {{masjid.name}}
+            <br><span class="display-6 muted fst-italic">{{masjid.location}}</span>
           </h1>
           <p class="lead">
             {{masjid.description}}
