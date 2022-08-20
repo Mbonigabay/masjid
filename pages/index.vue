@@ -1,34 +1,6 @@
 <template>
   <div class="container">
-    <header
-      class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom"
-    >
-      <a
-        href="/"
-        class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none"
-      >
-        <i class="fa-solid fa-mosque"></i>
-        <span class="fs-4">masjid.rw</span>
-      </a>
-
-      <ul class="nav nav-pills">
-        <li class="nav-item">
-          <a href="#" class="nav-link text-dark">Home</a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link text-dark">Mosques</a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link text-dark">About us</a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link text-dark">Services</a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link text-dark">Program</a>
-        </li>
-      </ul>
-    </header>
+    <TheHeader />
     <section id="intro">
       <div class="my-5">
         <div
@@ -376,7 +348,48 @@
     </section>
     <section id="teams">
       <h3>Our team</h3>
+      <h3>Contact us</h3>
     </section>
+    <footer>
+      <div class="">
+        <footer
+          class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+        >
+          <div class="col-md-4 d-flex align-items-center">
+            <a
+              href="/"
+              class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1"
+            >
+              <svg class="bi" width="30" height="24">
+                <use xlink:href="#bootstrap"></use>
+              </svg>
+            </a>
+            <span class="mb-3 mb-md-0 text-muted">© 2022 Company, Inc</span>
+          </div>
+
+          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3">
+              <a class="text-muted" href="#"
+                ><svg class="bi" width="24" height="24">
+                  <use xlink:href="#twitter"></use></svg
+              ></a>
+            </li>
+            <li class="ms-3">
+              <a class="text-muted" href="#"
+                ><svg class="bi" width="24" height="24">
+                  <use xlink:href="#instagram"></use></svg
+              ></a>
+            </li>
+            <li class="ms-3">
+              <a class="text-muted" href="#"
+                ><svg class="bi" width="24" height="24">
+                  <use xlink:href="#facebook"></use></svg
+              ></a>
+            </li>
+          </ul>
+        </footer>
+      </div>
+    </footer>
   </div>
 </template>
 <script setup>
