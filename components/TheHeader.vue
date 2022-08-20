@@ -1,6 +1,6 @@
 <template>
     <header
-      class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom sticky-top" style="background-color: white"
+      class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom" style="background-color: white"
     >
       <a
         href="/"
