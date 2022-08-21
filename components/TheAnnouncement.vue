@@ -58,10 +58,15 @@
       aria-labelledby="exampleModalCenterTitle"
       aria-hidden="true"
     >
-      <div class="modal-dialog modal-dialog-centered  mw-100 w-75" role="document">
+      <div
+        class="modal-dialog modal-dialog-centered mw-100 w-75"
+        role="document"
+      >
         <div class="modal-content">
           <div class="modal-header">
-            <h3 class="modal-title text-center" id="exampleModalLongTitle">{{modalData.name}}</h3>
+            <h3 class="modal-title text-center" id="exampleModalLongTitle">
+              {{ modalData.name }}
+            </h3>
             <button
               type="button"
               class="close"
@@ -71,7 +76,10 @@
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
-          <div class="modal-body p-5" v-html="marked.parse(modalData.description+'')"></div>
+          <div
+            class="modal-body p-5"
+            v-html="marked.parse(modalData.description + '')"
+          ></div>
           <div class="modal-footer">
             <button
               type="button"
@@ -88,17 +96,17 @@
 </template>
 <script setup>
 import moment from "moment";
-import {marked} from "marked";
+import { marked } from "marked";
 
 const props = defineProps({ slug: String });
 const slug = ref(props.slug);
-const modalData = ref({})
+const modalData = ref({});
 const { data: announcements } = await useFetch(`/api/announcements`);
 const masjidAnnouncements = announcements.value.filter(
   (a) => a.masjid === slug.value
 );
-function toggleModal(event){
-    modalData.value = event;
-    const html = marked.parse(modalData.value.description+"")
+function toggleModal(event) {
+  modalData.value = event;
+  const html = marked.parse(modalData.value.description + "");
 }
 </script>
