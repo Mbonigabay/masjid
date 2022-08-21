@@ -45,7 +45,7 @@ body {
 }
 @media screen and (max-width: 768px) {
   body {
-    padding-top: 0px;
+    padding-top: 120px;
   }
 }
 </style>
