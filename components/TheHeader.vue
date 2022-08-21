@@ -27,7 +27,7 @@
         <ul class="dropdown-menu">
           <li 
           :key="index"
-          v-for="(masjid, index) in masjids"><a class="dropdown-item" :href="`http://localhost:3000/?masjid=${masjid.slug}`">{{masjid.name}}</a></li>
+          v-for="(masjid, index) in masjids"><a class="dropdown-item" :href="`https://masjids-rw.netlify.app/?masjid=${masjid.slug}`">{{masjid.name}}</a></li>
         </ul>
       </li>
       <li class="nav-item">
