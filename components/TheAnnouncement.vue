@@ -1,5 +1,5 @@
 <template>
-  <section id="announcement">
+  <section class="mt-3" id="announcement">
     <h3 class="pb-2 border-bottom">Announcement</h3>
     <div class="row mb-2">
       <div
@@ -22,8 +22,8 @@
             <div class="mb-1 text-muted">
               <span>Posted </span>{{ moment(announcement.dateAdded).fromNow() }}
             </div>
-            <p class="card-text mb-auto">
-              {{ announcement.preview.substring(0, 150) + ".." }}
+            <p class="card-text mb-auto lead">
+              {{ announcement.preview.substring(0, 80) + ".." }}
             </p>
             <a
               href="#"
@@ -41,8 +41,7 @@
               height="250"
               :src="`image/announcements/${announcement.imagePreview}`"
               alt=""
-              object-fit="contain"
-              object-position="center"
+              style="object-fit: cover; object-position: center"
             />
           </div>
         </div>

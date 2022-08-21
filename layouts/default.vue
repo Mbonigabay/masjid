@@ -39,3 +39,13 @@
     </Html>
   </div>
 </template>
+<style>
+body {
+  padding-top: 40px;
+}
+@media screen and (max-width: 768px) {
+  body {
+    padding-top: 0px;
+  }
+}
+</style>

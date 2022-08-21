@@ -1,7 +1,7 @@
 <template>
   <section id="programs">
     <div id="custom-cards">
-      <h2 class="pb-2 border-bottom">Programs</h2>
+      <h3 class="pb-2 border-bottom">Programs</h3>
 
       <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
         <a
