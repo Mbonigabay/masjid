@@ -22,7 +22,7 @@
           role="button"
           data-toggle="dropdown"
           aria-expanded="false"
-          >Masjids</a
+          >{{$t("Masjids")}}</a
         >
         <ul class="dropdown-menu">
           <li :key="index" v-for="(masjid, index) in masjids">
