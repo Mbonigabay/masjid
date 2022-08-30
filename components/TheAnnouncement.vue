@@ -1,6 +1,6 @@
 <template>
   <section class="mt-3" id="announcement">
-    <h3 class="pb-2 border-bottom">Announcement</h3>
+    <h3 class="pb-2 border-bottom">{{ $t("Announcements") }}</h3>
     <div class="row mb-2">
       <div
         class="col-md-6"
@@ -8,7 +8,8 @@
         v-for="(announcement, index) in announcements"
         v-show="
           announcement.masjid === slug &&
-          moment(announcement.deadline).isAfter(moment(), 'day')
+          moment(announcement.deadline).isAfter(moment(), 'day') &&
+          announcement.lang === $i18n.locale
         "
       >
         <div

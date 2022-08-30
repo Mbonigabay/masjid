@@ -39,6 +39,8 @@
     </Html>
   </div>
 </template>
+<script setup>
+</script>
 <style>
 body {
   padding-top: 40px;

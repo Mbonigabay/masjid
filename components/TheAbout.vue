@@ -47,6 +47,5 @@
 <script setup>
 const props = defineProps({slug: String});
 const slug = ref(props.slug);
-const { data:masjid } = await useFetch(`/api/${slug.value}`);
-console.log("about::", masjid)
+const { data:masjid } = await useFetch(`/api/masjids/${slug.value}`);
 </script>

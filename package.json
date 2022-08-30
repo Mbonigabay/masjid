@@ -10,7 +10,9 @@
     "nuxt": "3.0.0-rc.8"
   },
   "dependencies": {
+    "@nuxtjs/i18n": "^7.3.0",
     "marked": "^4.0.18",
-    "moment": "^2.29.4"
+    "moment": "^2.29.4",
+    "vue-i18n": "^9.2.2"
   }
 }

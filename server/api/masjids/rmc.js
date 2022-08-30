@@ -6,7 +6,10 @@ const rmc = {
     name: "RMC - Rwanda Muslim Community",
     slug: "rmc",
     image: "rmc.png",
-    description: "Quickly design and customize responsive mobile-first sites withBootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system,extensive prebuilt components, and powerful JavaScript plugins.",
+    description:{
+      en:  "Quickly design and customize responsive mobile-first sites withBootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system,extensive prebuilt components, and powerful JavaScript plugins.",
+      kin: "Uhagaririye itsinda ry'aba Banyeshuri, Salim NIYIGENA mu butumwa yagejeje kuri Nyakubahwa Mufti w'uRwanda, yashimiye byimazeyo ubufatanye bw'umuryango w'Abayislamu mu Rwanda n'inzego zitandukanye kuko bwabafunguriye imiryango yo kugera k'uburezi bukwiye Umwana w'umunyarwanda."
+    },
     team: [
         {
           name: "John Doe",
@@ -50,4 +53,4 @@ const rmc = {
 
 router.get('/', () => rmc);
 
-export default useBase('/api/rmc', router.handler);
+export default useBase('/api/masjids/rmc', router.handler);

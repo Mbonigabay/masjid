@@ -6,11 +6,11 @@
       >
         <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
           <h1 class="display-4 fw-bold lh-1">
-            {{masjid.name}}
+            {{$t(masjid.name)}}
             <br><span class="display-6 muted fst-italic">{{masjid.location.district}}</span>
           </h1>
           <p class="lead">
-            {{masjid.description}}
+            {{masjid.description[`${$i18n.locale}`]}}
           </p>
         </div>
         <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
@@ -29,5 +29,5 @@
 <script setup>
 const props = defineProps({slug: String});
 const slug = ref(props.slug);
-const { data:masjid } = await useFetch(`/api/${slug.value}`);
+const { data:masjid } = await useFetch(`/api/masjids/${slug.value}`);
 </script>

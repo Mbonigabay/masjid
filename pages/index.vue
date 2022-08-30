@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <TheHeader />
+    <TheHeader @on-change-language="changeLanguage" />
     <TheIntro :slug="masjidSlug" />
     <TheAnnouncement :slug="masjidSlug" />
     <TheService :slug="masjidSlug" />
@@ -12,6 +12,8 @@
 
 <script setup>
 const route = useRoute();
+const router = useRouter();
+
 const masjidSlug = !!route.query.masjid ? route.query.masjid : "rmc";
-console.log("index::", masjidSlug);
+const { data: masjids } = await useFetch(`/api/masjids`);
 </script>

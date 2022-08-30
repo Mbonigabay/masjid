@@ -81,5 +81,4 @@ const { data: services } = await useFetch(`/api/services`);
 function toggleModal(event) {
   modalData.value = event;
 }
-console.log(services);
 </script>
