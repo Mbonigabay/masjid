@@ -1,6 +1,6 @@
 <template>
   <section id="services">
-    <h3 class="pb-2 border-bottom">Services</h3>
+    <h3 class="pb-2 border-bottom">{{$t("Services")}}</h3>
 
     <div
       class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5"
@@ -19,8 +19,8 @@
           height="1.75em"
         ></i>
         <div>
-          <h4 class="fw-bold mb-0">{{ service.name }}</h4>
-          <p class="lead">{{ service.preview }}</p>
+          <h4 class="fw-bold mb-0">{{ $t(service.name) }}</h4>
+          <p class="lead">{{ $t(service.preview) }}</p>
         </div>
       </a>
     </div>
@@ -54,7 +54,13 @@
           </div>
           <div
             class="modal-body p-5"
-            v-html="marked.parse(modalData.description + '')"
+            v-if="$i18n.locale === 'kin'"
+            v-html="marked.parse(modalData.description?.kin + '')"
+          ></div>
+          <div
+            class="modal-body p-5"
+            v-if="$i18n.locale === 'en'"
+            v-html="marked.parse(modalData.description?.en + '')"
           ></div>
           <div class="modal-footer">
             <button

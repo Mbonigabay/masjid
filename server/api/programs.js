@@ -17,7 +17,10 @@ const programs = [
     preview: "Quran school for children",
     reoccurence: "Every weekend",
     time: "9:00-12:00",
-    description: readAFile("kicukiro-gasharu_quran_school.md")
+    description: {
+      en: readAFile("kicukiro-gasharu_quran_school.en.md"),
+      kin: readAFile("kicukiro-gasharu_quran_school.kin.md"),
+    },
   },
   {
     name: "Amawayiza",
@@ -26,7 +29,7 @@ const programs = [
     preview: "Islamic studies on different topic",
     reoccurence: "Everyday",
     time: "15:00-16:00",
-    description: readAFile("kicukiro-gasharu_amawayiza.md")
+    description: readAFile("kicukiro-gasharu_amawayiza.md"),
   },
   {
     name: "Women gathering",
@@ -35,8 +38,8 @@ const programs = [
     preview: "Islamic studies for women.",
     reoccurence: "Every Sunday",
     time: "9:00-12:00",
-    description: readAFile("kicukiro-gasharu_women_gathering.md")
-  }
+    description: readAFile("kicukiro-gasharu_women_gathering.md"),
+  },
 ];
 
 router.get("/", () => programs);

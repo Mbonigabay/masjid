@@ -22,7 +22,7 @@
           role="button"
           data-toggle="dropdown"
           aria-expanded="false"
-          >{{$t("Masjids")}}</a
+          >{{ $t("Masjids") }}</a
         >
         <ul class="dropdown-menu">
           <li :key="index" v-for="(masjid, index) in masjids">
@@ -51,7 +51,12 @@
       <li>
         <select class="form-select" v-model="$i18n.locale">
           <option selected>{{ $t("Change Language") }}:</option>
-          <option value="en">English</option>
+          <option value="en">
+            <img
+              alt="United States"
+              src="http://purecatamphetamine.github.io/country-flag-icons/3x2/US.svg"
+            />English
+          </option>
           <option value="kin">Kinyarwanda</option>
         </select>
       </li>
