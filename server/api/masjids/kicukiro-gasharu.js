@@ -7,8 +7,8 @@ const rmc = {
   slug: "kicukiro-gasharu",
   image: "kicukiro-gasharu.png",
   description: {
-    en: "Quickly design and customize responsive mobile-first sites withBootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system,extensive prebuilt components, and powerful JavaScript plugins.",
-    kin: "Uhagaririye itsinda ry'aba Banyeshuri, Salim NIYIGENA mu butumwa yagejeje kuri Nyakubahwa Mufti w'uRwanda, yashimiye byimazeyo ubufatanye bw'umuryango w'Abayislamu mu Rwanda n'inzego zitandukanye kuko bwabafunguriye imiryango yo kugera k'uburezi bukwiye Umwana w'umunyarwanda.",
+    en: "The Daru salam Mosque was constructed in 1991 and upgraded in 2016.The building measures approximately 18 m by 15 m (on 270 to 350 sqm), covering an area of 542 sqm (plot size), including exterior landscape. The main axis of the building is rotated about 22° north to east, aligning it in the direction of the Kaaba in Mecca, Saudi Arabia.",
+    kin: "The Daru salam Mosque was constructed in 1991 and upgraded in 2016.The building measures approximately 18 m by 15 m (on 270 to 350 sqm), covering an area of 542 sqm (plot size), including exterior landscape. The main axis of the building is rotated about 22° north to east, aligning it in the direction of the Kaaba in Mecca, Saudi Arabia.",
   },
   team: [
     {

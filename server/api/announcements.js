@@ -8,27 +8,28 @@ function readAFile(fileName){
    return  fs.readFileSync(process.cwd() + "/" +  "public/markdown/announcements/"+fileName).toString()
 }
 
-const announcements = [{
-    name: "Zakat ul Mal",
-    imagePreview: "rmc.png",
-    category: "zakat",
-    masjid: "rmc",
-    dateAdded: "2022-08-20 19:40",
-    deadline: "2022-10-25 19:40",
-    preview: "Quickly design and customize responsive mobile-first sites withBootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system,extensive prebuilt components, and powerful JavaScript plugins.",
-    description: readAFile("rmc_zakatulmal_20082106.md"),
+const announcements = [
+{
+    name: "New Mosque Project",
+    imagePreview: "new-building-1.jpg",
+    category: "fundraising",
+    masjid: "kicukiro-gasharu",
+    dateAdded: "2022-10-20 21:40",
+    deadline: "2028-10-20 19:40",
+    preview: "The project was renovated in 2016 and completed in 2017 with 320 users as capacity of our masdjid today, found and all donations to complete that works is  from muslim community. Today we are thinking about how we can upgrade to receive 1200 users and above as capacity with gallery, quran school, administration office, women and men mosque, shopping rooms and an office for rent.",
+    description: readAFile("kicukiro_gasharu_new_mosque_project_en_20221020.md" ),
     lang: 'en'
 },
 {
-    name: "Muhazara",
-    imagePreview: "kicukiro-gasharu.png",
-    category: "muhazara",
+    name: "New Mosque Project",
+    imagePreview: "new-building-1.jpg",
+    category: "fundraising",
     masjid: "kicukiro-gasharu",
-    dateAdded: "2022-08-20 19:40",
-    deadline: "2022-10-25 19:40",
-    preview: "Quickly design and customize responsive mobile-first sites withBootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system,extensive prebuilt components, and powerful JavaScript plugins.",
-    description: readAFile("kicukiro_gasharu_muhazara_zakatulmal_20082106.md" ),
-    lang: 'en'
+    dateAdded: "2022-10-20 21:40",
+    deadline: "2028-10-20 19:40",
+    preview: "The project was renovated in 2016 and completed in 2017 with 320 users as capacity of our masdjid today, found and all donations to complete that works is  from muslim community. Today we are thinking about how we can upgrade to receive 1200 users and above as capacity with gallery, quran school, administration office, women and men mosque, shopping rooms and an office for rent.",
+    description: readAFile("kicukiro_gasharu_new_mosque_project_kin_20221020.md" ),
+    lang: 'kin'
 }
 ]
 

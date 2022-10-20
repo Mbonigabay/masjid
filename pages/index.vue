@@ -14,6 +14,6 @@
 const route = useRoute();
 const router = useRouter();
 
-const masjidSlug = !!route.query.masjid ? route.query.masjid : "rmc";
+const masjidSlug = !!route.query.masjid ? route.query.masjid : "kicukiro-gasharu";
 const { data: masjids } = await useFetch(`/api/masjids`);
 </script>

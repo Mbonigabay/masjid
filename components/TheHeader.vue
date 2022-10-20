@@ -15,7 +15,7 @@
       <li class="nav-item">
         <a href="#intro" class="nav-link text-dark">{{ $t("Home") }}</a>
       </li>
-      <li class="nav-item dropdown">
+      <!-- <li class="nav-item dropdown">
         <a
           href="#"
           class="nav-link dropdown-toggle text-dark"
@@ -33,7 +33,7 @@
             >
           </li>
         </ul>
-      </li>
+      </li> -->
       <li class="nav-item">
         <a href="#announcements" class="nav-link text-dark">{{
           $t("Announcements")
