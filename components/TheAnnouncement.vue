@@ -1,5 +1,5 @@
 <template>
-  <section class="mt-3" id="announcement">
+  <section class="mt-3" id="announcements">
     <h3 class="pb-2 border-bottom">{{ $t("Announcements") }}</h3>
     <div class="row mb-2">
       <div
@@ -59,7 +59,7 @@
       aria-hidden="true"
     >
       <div
-        class="modal-dialog modal-dialog-centered mw-100 w-75"
+        class="modal-dialog modal-dialog-centered mw-100 w-md-75"
         role="document"
       >
         <div class="modal-content">

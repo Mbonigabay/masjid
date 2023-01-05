@@ -35,7 +35,7 @@
       aria-hidden="true"
     >
       <div
-        class="modal-dialog modal-dialog-centered mw-100 w-75"
+        class="modal-dialog modal-dialog-centered mw-100 w-md-75"
         role="document"
       >
         <div class="modal-content">

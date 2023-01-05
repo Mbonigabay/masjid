@@ -45,9 +45,45 @@
 body {
   padding-top: 40px;
 }
-@media screen and (max-width: 768px) {
-  body {
-    padding-top: 120px;
-  }
+
+#intro, #announcements, #services, #programs, #about {
+  scroll-margin-top: 5em;
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  body {
+    padding-top: 200px;
+  }
+
+  #intro, #services {
+    margin: 0.5em;
+  }
+
+  #intro-image {
+    display: none;
+  }
+
+
+#intro, #announcements, #services, #programs, #about {
+  scroll-margin-top: 15em;
+}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  body {
+    padding-top: 100px;
+  }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
 </style>

@@ -13,7 +13,7 @@
             {{masjid.description[`${$i18n.locale}`]}}
           </p>
         </div>
-        <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+        <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg" id="intro-image">
           <img
             class="rounded-lg-3"
             :src="`image/masjids/${masjid.image}`"
