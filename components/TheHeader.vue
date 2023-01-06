@@ -11,7 +11,7 @@
       <span class="fs-4">masjid.rw</span>
     </a>
 
-    <ul class="nav nav-pills">
+    <ul ref="menu" id="menu" class="nav nav-pills">
       <li class="nav-item">
         <a href="#intro" class="nav-link text-dark">{{ $t("Home") }}</a>
       </li>
@@ -61,13 +61,29 @@
         </select>
       </li>
     </ul>
+    <div id="mobile-menu" class="mx-3 my-2" @click="toggleMenu"><i class="fa-solid fa-bars fs-4"></i></div>
   </header>
 </template>
 <script setup>
+import { ref } from "vue";
+
 const route = useRoute();
 const router = useRouter();
 const masjid = !!route.query.masjid ? route.query.masjid : "rmc";
+let menu = ref(null);
 const { data: masjids } = await useFetch(`/api/masjids`);
+
+function toggleMenu(event){
+  if(menu.value.style.display === '' || menu.value.style.display === 'none'){
+    menu.value.style.display = 'inline-block';
+    return;
+  }
+
+  if(menu.value.style.display === 'inline-block'){
+    menu.value.style.display = 'none';
+    return;
+  }
+}
 </script>
 
 <style>

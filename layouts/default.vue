@@ -46,6 +46,10 @@ body {
   padding-top: 40px;
 }
 
+#mobile-menu {
+  display: none;
+}
+
 #intro, #announcements, #services, #programs, #about {
   scroll-margin-top: 5em;
 }
@@ -55,6 +59,15 @@ body {
   body {
     padding-top: 200px;
   }
+
+
+#mobile-menu {
+  display: inline;
+}
+
+#menu {
+  display: none;
+}
 
   #intro, #services {
     margin: 0.5em;
