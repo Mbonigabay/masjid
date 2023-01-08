@@ -5,7 +5,7 @@ const router = createRouter();
 const rmc = {
     name: "RMC - Rwanda Muslim Community",
     slug: "rmc",
-    image: "rmc.png",
+    image: "rmc.jpg",
     description:{
       en:  "Quickly design and customize responsive mobile-first sites withBootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system,extensive prebuilt components, and powerful JavaScript plugins.",
       kin: "Uhagaririye itsinda ry'aba Banyeshuri, Salim NIYIGENA mu butumwa yagejeje kuri Nyakubahwa Mufti w'uRwanda, yashimiye byimazeyo ubufatanye bw'umuryango w'Abayislamu mu Rwanda n'inzego zitandukanye kuko bwabafunguriye imiryango yo kugera k'uburezi bukwiye Umwana w'umunyarwanda."

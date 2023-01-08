@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <TheHeader @on-change-language="changeLanguage" />
+    <TheHeader />
     <TheIntro :slug="masjidSlug" />
     <TheAnnouncement :slug="masjidSlug" />
     <TheService :slug="masjidSlug" />

@@ -5,8 +5,8 @@ import kin from '../locales/kin.json';
 export default defineNuxtPlugin(({ vueApp }) => {
   const i18n = createI18n({
     legacy: false,
-    globalInjection: true,
     locale: 'kin',
+    fallbackLocale: ' kin',
     messages: {
       en,
       kin

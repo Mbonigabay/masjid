@@ -5,7 +5,7 @@ const router = createRouter();
 const rmc = {
   name: "Masjid Darusalam",
   slug: "kicukiro-gasharu",
-  image: "kicukiro-gasharu.png",
+  image: "kicukiro-gasharu.jpg",
   description: {
     en: "The Daru salam Mosque was constructed in 1991 and upgraded in 2016.The building measures approximately 18 m by 15 m (on 270 to 350 sqm), covering an area of 542 sqm (plot size), including exterior landscape. The main axis of the building is rotated about 22° north to east, aligning it in the direction of the Kaaba in Mecca, Saudi Arabia.",
     kin: "The Daru salam Mosque was constructed in 1991 and upgraded in 2016.The building measures approximately 18 m by 15 m (on 270 to 350 sqm), covering an area of 542 sqm (plot size), including exterior landscape. The main axis of the building is rotated about 22° north to east, aligning it in the direction of the Kaaba in Mecca, Saudi Arabia.",
