@@ -13,27 +13,32 @@
         "
       >
         <div
-          class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
+          class="row g-0 border rounded-0 overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
+              data-toggle="modal"
+              data-target="#exampleModalCenter"
+              @click.prevent="toggleModal(announcement)"
         >
           <div class="col p-4 d-flex flex-column position-static">
-            <strong class="d-inline-block mb-2 text-primary">{{
-              announcement.category
-            }}</strong>
+            <div>
+              <p class="d-inline-flex mb-2 p-2 badge bg-success rounded-0 text-capitalize">{{
+                announcement.category
+              }}</p>
+              </div>
             <h3 class="mb-0">{{ announcement.name }}</h3>
             <div class="mb-1 text-muted">
               <span>Posted </span>{{ moment(announcement.dateAdded).fromNow() }}
             </div>
-            <p class="card-text mb-auto lead">
-              {{ announcement.preview.substring(0, 80) + ".." }}
+            <p class="card-text mb-auto">
+              {{ announcement.preview.substring(0, 150) + ".." }}
             </p>
-            <a
+            <!-- <a
               href="#"
               class="stretched-link"
               data-toggle="modal"
               data-target="#exampleModalCenter"
               @click.prevent="toggleModal(announcement)"
               >More info...</a
-            >
+            > -->
           </div>
           <div class="col-auto d-none d-lg-block">
             <img
@@ -59,7 +64,7 @@
       aria-hidden="true"
     >
       <div
-        class="modal-dialog modal-dialog-centered mw-100 w-md-75"
+        class="modal-dialog modal-dialog-centered modal-fullscreen-sm-down"
         role="document"
       >
         <div class="modal-content">
@@ -69,11 +74,11 @@
             </h3>
             <button
               type="button"
-              class="close"
+              class="close btn border-0"
               data-dismiss="modal"
               aria-label="Close"
             >
-              <span aria-hidden="true">&times;</span>
+              <span class="fa-regular fa-circle-xmark fs-4" aria-hidden="true"></span>
             </button>
           </div>
           <div

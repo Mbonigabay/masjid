@@ -6,6 +6,7 @@
     <a
       href="/"
       class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none"
+      id="logo"
     >
       <i class="fa-solid fa-mosque"></i>
       <span class="fs-4">masjid.rw</span>
@@ -82,6 +83,12 @@ function toggleMenu(event){
 </script>
 
 <style>
+#logo {
+  color: #006c35 !important;
+}
+.nav-item .nav-link:hover{
+  color: #006c35 !important;
+}
 ul.nav li.dropdown:hover > ul.dropdown-menu {
   display: block;
 }

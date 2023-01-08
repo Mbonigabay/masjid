@@ -54,6 +54,40 @@ body {
   scroll-margin-top: 5em;
 }
 
+.modal-dialog .modal-header {
+    background-color: #006c35;
+    border-radius: 1px;
+    color: #fff;
+}
+
+.modal-dialog .modal-header {
+    border: 0;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+.modal-footer .btn-secondary {
+    color: #fff!important;
+    font-weight: 500;
+    background-color: #006c35 !important;
+    border-radius: 1px;
+}
+
+.modal-footer .btn {
+    margin: .375rem;
+    color: inherit;
+    text-transform: uppercase;
+    word-wrap: break-word;
+    white-space: normal;
+    cursor: pointer;
+    border: 0;
+    border-radius: 1px;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    padding: .84rem 2.14rem;
+    font-size: .81rem;
+}
+
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   body {

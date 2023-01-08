@@ -23,21 +23,21 @@
     </div>
     <div id="contactus">
       <h3 class="pb-2 border-bottom">Reach us</h3>
-      <div class="d-lg-flex flex-row justify-content-between p-5">
-        <div><p class="fs-3"><span class="fw-bold">Location</span> <a target="_blank" :href="`${masjid.location.googleLink}`">{{masjid.location.streetName}}</a></p></div>
+      <div class="d-lg-flex flex-row justify-content-between">
+        <div><p class="fs-5"><span class="fw-bold">Location:</span> <a target="_blank" :href="`${masjid.location.googleLink}`" class="text-decoration-none text-dark">{{masjid.location.streetName}}</a></p></div>
         <div>
-          <p class="fs-3"><span class="fw-bold">Email</span> {{masjid.contact.email}} </p>
-          <p class="fs-3"><span class="fw-bold">Phone</span> {{masjid.contact.phone}} </p>
+          <p class="fs-5"><span class="fw-bold">Email:</span> {{masjid.contact.email}} </p>
+          <p class="fs-5"><span class="fw-bold">Phone:</span> {{masjid.contact.phone}} </p>
         </div>
         <div>
           <div class="card card-body mt-1 bg-info">
-            <a class="fs-3 text-dark text-decoration-none" target="_blank" :href="`https://twitter.com/${masjid.contact.twitter}`"><i class="fa-brands fa-twitter"></i> {{masjid.contact.twitter}}</a>
+            <a class="fs-5 text-light text-decoration-none" target="_blank" :href="`https://twitter.com/${masjid.contact.twitter}`"><i class="fa-brands fa-twitter"></i> {{masjid.contact.twitter}}</a>
           </div>
           <div class="card card-body mt-1 bg-primary">
-            <a class="fs-3 text-dark text-decoration-none" target="_blank" :href="`https://facebook.com/${masjid.contact.facebook}`"><i class="fa-brands fa-facebook"></i> {{masjid.contact.facebook}}</a>
+            <a class="fs-5 text-light text-decoration-none" target="_blank" :href="`https://facebook.com/${masjid.contact.facebook}`"><i class="fa-brands fa-facebook"></i> {{masjid.contact.facebook}}</a>
           </div>
           <div class="card card-body mt-1 bg-danger">
-            <a class="fs-3 text-dark text-decoration-none" target="_blank" :href="`https://www.youtube.com/user/${masjid.contact.youtube}`"><i class="fa-brands fa-youtube"></i> {{masjid.contact.youtube}}</a>
+            <a class="fs-5 text-light text-decoration-none" target="_blank" :href="`https://www.youtube.com/user/${masjid.contact.youtube}`"><i class="fa-brands fa-youtube"></i> {{masjid.contact.youtube}}</a>
           </div>
         </div>
       </div>

@@ -61,21 +61,20 @@
       aria-hidden="true"
     >
       <div
-        class="modal-dialog modal-dialog-centered mw-100 w-md-75"
+        class="modal-dialog modal-dialog-centered"
         role="document"
       >
         <div class="modal-content">
           <div class="modal-header">
             <h3 class="modal-title text-center" id="programModalLongTitle">
               {{ modalData.name }}
-            </h3>
-            <button
+            </h3><button
               type="button"
-              class="close"
+              class="close btn border-0"
               data-dismiss="modal"
               aria-label="Close"
             >
-              <span aria-hidden="true">&times;</span>
+              <span class="fa-regular fa-circle-xmark fs-4" aria-hidden="true"></span>
             </button>
           </div>
           <div
