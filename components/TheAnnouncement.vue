@@ -1,6 +1,6 @@
 <template>
   <section class="mt-3" id="announcements">
-    <h3 class="pb-2 border-bottom">{{ $t("Announcements") }}</h3>
+    <h3 class="pb-2 border-bottom border-success section-title">{{ $t("Announcements") }}</h3>
     <div class="row mb-2">
       <div
         class="col-md-6"

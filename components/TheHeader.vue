@@ -1,6 +1,6 @@
 <template>
   <header
-    class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom fixed-top container"
+    class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom border-success fixed-top container"
     style="background-color: white"
   >
     <a
@@ -50,11 +50,16 @@
         <a href="#about" class="nav-link text-dark">{{ $t("About us") }}</a>
       </li>
       <li>
-        <select class="form-select" v-model="$i18n.locale">
-          <option selected>{{ $t("Change Language") }}:</option>
-          <option value="en">English</option>
-          <option value="kin">Kinyarwanda</option>
-        </select>
+        <div class="select-container">
+          <select class="select-box" v-model="$i18n.locale">
+            <option disabled>{{ $t("Change Language") }}:</option>
+            <option value="en">English</option>
+            <option value="kin">Kinyarwanda</option>
+          </select>
+          <div class="icon-container">
+            <i class="fa-solid fa-caret-down"></i>
+          </div>
+        </div>
       </li>
     </ul>
     <div id="mobile-menu" class="mx-3 my-2" @click="toggleMenu"><i class="fa-solid fa-bars fs-4"></i></div>
@@ -84,10 +89,10 @@ function toggleMenu(event){
 
 <style>
 #logo {
-  color: #006c35 !important;
+  color: var(--color-green) !important;
 }
 .nav-item .nav-link:hover{
-  color: #006c35 !important;
+  color: var(--color-green) !important;
 }
 ul.nav li.dropdown:hover > ul.dropdown-menu {
   display: block;
@@ -96,5 +101,41 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
   ul.nav li.dropdown:hover > ul.dropdown-menu {
     display: block;
   }
+}
+
+.select-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  min-width: 100px;
+  height: 30px;
+  margin-top: 5px;
+}
+
+.select-box {
+  border: none;
+  appearance: none;
+  padding: 0 15px 0 10px;
+  width: 100%;
+  color: white;
+  background-color: var(--color-green);
+  font-size: 15px;
+}
+
+.select-container .icon-container {
+  width: 25px;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-green-darker);
+  pointer-events: none;
+}
+
+.icon-container i {
+  font-size: 15px;
+  color: white;
 }
 </style>

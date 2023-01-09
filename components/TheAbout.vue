@@ -1,7 +1,7 @@
 <template>
   <div id="about">
     <div id="teams">
-      <h3 class="pb-2 border-bottom">Our team</h3>
+      <h3 class="pb-2 border-bottom  border-success section-title">Our team</h3>
       <div class="d-lg-flex flex-row justify-content-between p-5">
         <div 
           :key="index"
@@ -22,7 +22,7 @@
       </div>
     </div>
     <div id="contactus">
-      <h3 class="pb-2 border-bottom">Reach us</h3>
+      <h3 class="pb-2 border-bottom border-success section-title">Reach us</h3>
       <div class="d-lg-flex flex-row justify-content-between">
         <div><p class="fs-5"><span class="fw-bold">Location:</span> <a target="_blank" :href="`${masjid.location.googleLink}`" class="text-decoration-none text-dark">{{masjid.location.streetName}}</a></p></div>
         <div>

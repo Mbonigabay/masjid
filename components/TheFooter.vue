@@ -2,7 +2,7 @@
   <footer>
     <div class="">
       <footer
-        class="d-flex flex-wrap justify-content-center align-items-center py-3 my-4 border-top"
+        class="d-flex flex-wrap justify-content-center align-items-center py-3 my-4 border-top border-success"
       >
         <div class="col-md-4 d-flex align-items-center">
           <a

@@ -2,7 +2,7 @@
   <div>
     <Html>
       <Head>
-        <Title>Welcome To Yusuf's Portofolio</Title>
+        <Title>Welcome To Masjids Rwanda</Title>
       </Head>
       <Link
         rel="stylesheet"
@@ -15,6 +15,8 @@
         crossorigin="anonymous"
         referrerpolicy="no-referrer"
       />
+
+      <Link rel="icon" type="image/png" href="/image/masjid-favicon.png" />
       <Body id="bg-img">
         <slot />
         <Script
@@ -42,6 +44,11 @@
 <script setup>
 </script>
 <style>
+:root {
+  --color-green: #006c35;
+  --color-green-darker: #024b37;
+}
+
 body {
   padding-top: 40px;
 }
@@ -54,8 +61,16 @@ body {
   scroll-margin-top: 5em;
 }
 
+.section-title {
+  color: var(--color-green);
+}
+
+.border-success {
+  border-color: var(--color-green) !important;;
+}
+
 .modal-dialog .modal-header {
-    background-color: #006c35;
+    background-color: var(--color-green);
     border-radius: 1px;
     color: #fff;
 }
@@ -69,7 +84,7 @@ body {
 .modal-footer .btn-secondary {
     color: #fff!important;
     font-weight: 500;
-    background-color: #006c35 !important;
+    background-color: var(--color-green) !important;
     border-radius: 1px;
 }
 
@@ -86,7 +101,6 @@ body {
     padding: .84rem 2.14rem;
     font-size: .81rem;
 }
-
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {

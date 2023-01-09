@@ -1,6 +1,6 @@
 <template>
   <section id="services">
-    <h3 class="pb-2 border-bottom">{{$t("Services")}}</h3>
+    <h3 class="pb-2 border-bottom border-success section-title">{{$t("Services")}}</h3>
 
     <div
       class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5"
@@ -89,6 +89,6 @@ function toggleModal(event) {
 </script>
 <style scoped>
 i {
-  color: #006c35 !important;;
+  color: var(--color-green) !important;;
 }
 </style>
