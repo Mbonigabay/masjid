@@ -8,7 +8,7 @@ const rmc = {
   image: "kicukiro-gasharu.jpg",
   description: {
     en: "The Daru salam Mosque was constructed in 1991 and upgraded in 2016.The building measures approximately 18 m by 15 m (on 270 to 350 sqm), covering an area of 542 sqm (plot size), including exterior landscape. The main axis of the building is rotated about 22° north to east, aligning it in the direction of the Kaaba in Mecca, Saudi Arabia.",
-    kin: "The Daru salam Mosque was constructed in 1991 and upgraded in 2016.The building measures approximately 18 m by 15 m (on 270 to 350 sqm), covering an area of 542 sqm (plot size), including exterior landscape. The main axis of the building is rotated about 22° north to east, aligning it in the direction of the Kaaba in Mecca, Saudi Arabia.",
+    kin: "Umusigiti wa Daru salam wubatswe mu 1991 kandi uzamurwa mu 2016. Iyi nyubako ipima metero 18 kuri metero 15 (kuri 270 kugeza kuri 350 sqm), ifite ubuso bwa sqm 542 (ubunini bwikibanza), harimo n’imiterere y’inyuma. Inzira nyamukuru yinyubako izunguruka nka 22 ° mumajyaruguru ugana iburasirazuba, ikayihuza yerekeza mu cyerekezo cya Kaaba i Maka, muri Arabiya Sawudite.",
   },
   team: [
     {

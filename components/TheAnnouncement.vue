@@ -21,7 +21,7 @@
           <div class="col p-4 d-flex flex-column position-static">
             <div>
               <p class="d-inline-flex mb-2 p-2 badge bg-success rounded-0 text-capitalize">{{
-                announcement.category
+                $t(announcement.category)
               }}</p>
               </div>
             <h3 class="mb-0">{{ announcement.name }}</h3>

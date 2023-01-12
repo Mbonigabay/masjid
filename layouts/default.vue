@@ -102,6 +102,11 @@ body {
     font-size: .81rem;
 }
 
+    .modal-image {
+        max-width:100%;
+        margin: 0.5rem 0 0.5rem 0;
+    }
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   body {
