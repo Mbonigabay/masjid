@@ -4,16 +4,22 @@
       <h3 class="pb-2 border-bottom border-success section-title">
         {{ $t("Our Comittee") }}
       </h3>
-      <div class="d-lg-flex flex-row justify-content-between p-5">
-        <div :key="index" v-for="(member, index) in masjid.team">
-          <img
-            :src="`image/teams/${member.image}`"
-            class="rounded-circle"
-            alt=""
-            width="200"
-            height="200"
-            style="object-fit: cover; object-position: center"
-          />
+      <div class="d-lg-flex flex-row justify-content-between">
+        <div
+          :key="index"
+          v-for="(member, index) in masjid.team"
+          class="d-flex flex-column justify-content-center text-center p-2"
+        >
+          <div>
+            <img
+              :src="`image/teams/${member.image}`"
+              class="rounded-circle"
+              alt=""
+              width="200"
+              height="200"
+              style="object-fit: cover; object-position: center"
+            />
+          </div>
           <div class="mt-3">
             <p class="fs-3 text-center m-0 p-0 fw-bolder">{{ member.name }}</p>
             <p class="fs-5 lead text-muted text-center m-0 p-0">
@@ -29,7 +35,7 @@
       </h3>
       <div class="d-lg-flex flex-row justify-content-between">
         <div>
-          <p class="fs-5  m-0 p-0">
+          <p class="fs-5 m-0 p-0">
             <span class="fw-bold">Location: </span>
             <a
               target="_blank"
@@ -38,7 +44,10 @@
               >{{ masjid.location.streetName }}</a
             >
           </p>
-          <small class="text-muted"><i class="fa-solid fa-circle-info"></i> {{$t("click on the location for more info")}}</small>
+          <small class="text-muted"
+            ><i class="fa-solid fa-circle-info"></i>
+            {{ $t("click on the location for more info") }}</small
+          >
         </div>
         <div>
           <p class="fs-5">

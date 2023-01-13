@@ -12,29 +12,29 @@ const rmc = {
   },
   team: [
     {
-      name: "John Doe",
+      name: "Muhammed Africa",
       title: "Imam",
-      image: "kicukiro-gasharu_imam.jpg",
+      image: "default.png",
     },
     {
-      name: "Kanaka Doe",
+      name: "Saidi Abdoul-Rahman",
       title: "Vice Imam",
       image: "kicukiro-gasharu_vice_imam.jpg",
     },
     {
-      name: "Bilal Doe",
-      title: "Bilal",
-      image: "kicukiro-gasharu_bilal.jpg",
+      name: "Shaffiq Kabarisa",
+      title: "Good Governance",
+      image: "kicukiro-gasharu_good_governance_.jpg",
     },
     {
-      name: "Youth Doe",
+      name: "Adam Nshimiyimana",
       title: "Youth",
       image: "kicukiro-gasharu_youth.jpg",
     },
     {
-      name: "John Doe",
-      title: "Treasury",
-      image: "kicukiro-gasharu_treasury.jpg",
+      name: "Issa Ngirinshuti",
+      title: "Secretary",
+      image: "kicukiro-gasharu_secretary.jpg",
     },
   ],
   location: {
