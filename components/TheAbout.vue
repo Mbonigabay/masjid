@@ -58,31 +58,40 @@
           </p>
         </div>
         <div>
-          <div class="card card-body mt-1 bg-info">
+          <div v-show="!!masjid.contact.twitter" class="fs-5"> 
             <a
-              class="fs-5 text-light text-decoration-none"
+              class="text-dark text-decoration-none"
               target="_blank"
               :href="`https://twitter.com/${masjid.contact.twitter}`"
-              ><i class="fa-brands fa-twitter"></i>
+              ><i class="fa-brands fa-twitter" style="color: #00acee"></i>
               {{ masjid.contact.twitter }}</a
             >
           </div>
-          <div class="card card-body mt-1 bg-primary">
+          <div v-show="!!masjid.contact.facebook" class="fs-5">
             <a
-              class="fs-5 text-light text-decoration-none"
+              class="text-dark text-decoration-none"
               target="_blank"
               :href="`https://facebook.com/${masjid.contact.facebook}`"
-              ><i class="fa-brands fa-facebook"></i>
+              ><i class="fa-brands fa-facebook" style="color: #3b5998"></i>
               {{ masjid.contact.facebook }}</a
             >
           </div>
-          <div class="card card-body mt-1 bg-danger">
+          <div v-show="!!masjid.contact.youtube"  class="fs-5">
             <a
-              class="fs-5 text-light text-decoration-none"
+              class="text-dark text-decoration-none"
               target="_blank"
-              :href="`https://www.youtube.com/user/${masjid.contact.youtube}`"
-              ><i class="fa-brands fa-youtube"></i>
+              :href="`https://www.youtube.com/@${masjid.contact.youtube}`"
+              ><i class="fa-brands fa-youtube" style="color: #FF0000"></i>
               {{ masjid.contact.youtube }}</a
+            >
+          </div>
+          <div v-show="!!masjid.contact.instagram"  class="fs-5">
+            <a
+              class="text-dark text-decoration-none"
+              target="_blank"
+              :href="`https://www.instagram.com/${masjid.contact.instagram}`"
+              ><i class="fa-brands fa-instagram"  style="color: #8a3ab9"></i>
+              {{ masjid.contact.instagram }}</a
             >
           </div>
         </div>

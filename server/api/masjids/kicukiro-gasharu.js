@@ -39,16 +39,15 @@ const rmc = {
   ],
   location: {
     district: "Kicukiro - Kigali",
-    streetName: "KK 502st",
+    streetName: "KK51 ave",
     googleLink:
       "https://www.google.com/search?q=masjid%20darusalam%20kicukiro&oq=masjid+darusalam+kicukiro&aqs=edge.0.69i59j69i60l3j69i64.2344j0j1&sourceid=chrome&ie=UTF-8&tbs=lrf:!1m4!1u2!2m2!2m1!1e1!2m1!1e2!3sIAE,lf:1,lf_ui:2&tbm=lcl&sxsrf=ALiCzsar6aA0u0MK3LsZqoOib4d48rKEtg:1661085418290&rflfq=1&num=10&rldimm=14146254906832598299&lqi=ChltYXNqaWQgZGFydXNhbGFtIGtpY3VraXJvSJOGiPqMq4CACForEAAQARgAGAEYAiIZbWFzamlkIGRhcnVzYWxhbSBraWN1a2lybyoECAMQAJIBBm1vc3F1ZQ&ved=2ahUKEwj4wrGy-df5AhU6QUEAHTu3AZQQvS56BAgPEAE&sa=X&rlst=f#rlfi=hd:;si:14146254906832598299,l,ChltYXNqaWQgZGFydXNhbGFtIGtpY3VraXJvSJOGiPqMq4CACForEAAQARgAGAEYAiIZbWFzamlkIGRhcnVzYWxhbSBraWN1a2lybyoECAMQAJIBBm1vc3F1ZQ;mv:[[-1.9691994,30.1001595],[-1.9721868999999999,30.0972125]];tbs:lrf:!1m4!1u2!2m2!2m1!1e1!2m1!1e2!3sIAE,lf:1,lf_ui:2",
   },
   contact: {
-    email: "darusalam@masjid.rw",
-    phone: "+250781607680",
-    twitter: "islamrwanda",
-    facebook: "RMC.Islamrwanda",
-    youtube: "rusabdi",
+    email: "Masdjiddarusalam@gmail.com",
+    phone: "+250785304366",
+    youtube: "masdjidgasharu",
+    instagram: "masdjid.rw"
   },
 };
 
