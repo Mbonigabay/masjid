@@ -91,7 +91,7 @@
               class="btn btn-secondary"
               data-dismiss="modal"
             >
-              Close
+            {{ $t("Close") }}
             </button>
           </div>
         </div>

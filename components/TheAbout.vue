@@ -1,5 +1,5 @@
 <template>
-  <div id="about">
+  <div  class="mt-3" id="about">
     <div id="teams">
       <h3 class="pb-2 border-bottom border-success section-title">
         {{ $t("Our Comittee") }}
@@ -8,7 +8,7 @@
         <div
           :key="index"
           v-for="(member, index) in masjid.team"
-          class="d-flex flex-column justify-content-center text-center p-2"
+          class="d-flex flex-column justify-content-center text-center mt-5 p-2"
         >
           <div>
             <img
@@ -29,7 +29,7 @@
         </div>
       </div>
     </div>
-    <div id="contactus">
+    <div class="mt-5" id="contactus">
       <h3 class="pb-2 border-bottom border-success section-title">
         {{ $t("Reach us") }}
       </h3>

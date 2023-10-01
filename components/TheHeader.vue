@@ -47,6 +47,9 @@
         <a href="#programs" class="nav-link text-dark">{{ $t("Programs") }}</a>
       </li>
       <li class="nav-item">
+        <a href="#library" class="nav-link text-dark">{{ $t("Library") }}</a>
+      </li>
+      <li class="nav-item">
         <a href="#about" class="nav-link text-dark">{{ $t("About us") }}</a>
       </li>
       <li>

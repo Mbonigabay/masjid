@@ -1,5 +1,5 @@
 <template>
-  <footer>
+  <footer  class="mt-3">
     <div class="">
       <footer
         class="d-flex flex-wrap justify-content-center align-items-center py-3 my-4 border-top border-success"

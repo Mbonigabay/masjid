@@ -5,6 +5,7 @@
     <TheAnnouncement :slug="masjidSlug" />
     <TheService :slug="masjidSlug" />
     <TheProg :slug="masjidSlug" />
+    <TheLibrary :slug="masjidSlug"/>
     <TheAbout :slug="masjidSlug" />
     <TheFooter />
   </div>

@@ -57,7 +57,7 @@ body {
   display: none;
 }
 
-#intro, #announcements, #services, #programs, #about {
+#intro, #announcements, #services, #programs, #about, #library {
   scroll-margin-top: 5em;
 }
 
