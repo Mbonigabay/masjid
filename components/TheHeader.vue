@@ -8,7 +8,7 @@
       class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none"
       id="logo"
     >
-      <img class="navbar-brand" src="../../image/masdjid-logo.png" alt="logo" height="40"/>
+      <img class="navbar-brand" src="/image/masdjid-logo.png" alt="logo" height="40"/>
     </a>
 
     <ul ref="menu" id="menu" class="nav nav-pills">
