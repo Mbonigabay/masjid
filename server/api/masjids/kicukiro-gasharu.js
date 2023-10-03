@@ -14,7 +14,7 @@ const rmc = {
     {
       name: "Muhammed Africa",
       title: "Imam",
-      image: "default.png",
+      image: "kicukiro-gasharu_imam.jpg",
     },
     {
       name: "Saidi Abdoul-Rahman",
@@ -35,6 +35,11 @@ const rmc = {
       name: "Issa Ngirinshuti",
       title: "Secretary",
       image: "kicukiro-gasharu_secretary.jpg",
+    },
+    {
+      name: "xxx",
+      title: "Accountant",
+      image: "kicukiro-gasharu_accountant.jpg",
     },
   ],
   location: {

@@ -16,7 +16,7 @@
         referrerpolicy="no-referrer"
       />
 
-      <Link rel="icon" type="image/png" href="/image/masjid-favicon.png" />
+      <Link rel="icon" type="image/png" href="/image/masdjid-logo-only.png" />
       <Body id="bg-img">
         <slot />
         <Script
