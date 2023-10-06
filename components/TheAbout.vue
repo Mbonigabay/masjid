@@ -4,7 +4,7 @@
       <h3 class="pb-2 border-bottom border-success section-title">
         {{ $t("Our Comittee") }}
       </h3>
-      <div class="d-lg-flex flex-row justify-content-between">
+      <div class="d-lg-flex flex-row justify-content-between flex-sm-wrap">
         <div
           :key="index"
           v-for="(member, index) in masjid.team"
@@ -91,6 +91,15 @@
               target="_blank"
               :href="`https://www.instagram.com/${masjid.contact.instagram}`"
               ><i class="fa-brands fa-instagram"  style="color: #8a3ab9"></i>
+              {{ masjid.contact.instagram }}</a
+            >
+          </div>
+          <div v-show="!!masjid.contact.tiktok"  class="fs-5">
+            <a
+              class="text-dark text-decoration-none"
+              target="_blank"
+              :href="`https://www.tiktok.com/@${masjid.contact.tiktok}`"
+              ><i class="fa-brands fa-tiktok"  style="color: #8a3ab9"></i>
               {{ masjid.contact.instagram }}</a
             >
           </div>

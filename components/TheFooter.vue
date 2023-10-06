@@ -13,7 +13,7 @@
               <use xlink:href="#bootstrap"></use>
             </svg>
           </a>
-          <span class="mb-3 mb-md-0 text-muted">© 2022 Yusuf Mbonigaba</span>
+          <span class="mb-3 mb-md-0 text-muted">©2022 masjid.rw</span>
         </div>
       </footer>
     </div>

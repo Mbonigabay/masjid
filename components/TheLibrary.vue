@@ -3,7 +3,7 @@
     <h3 class="pb-2 border-bottom border-success section-title">
       {{ $t("Library") }}
     </h3>
-    <div class="d-flex flex-row justify-content-start gap-5 flex-wrap">
+    <div class="d-flex flex-row justify-content-center justify-content-md-start gap-5 flex-wrap">
       <div
         class="card"
         @click.prevent="toggleModal(book)"
@@ -15,6 +15,7 @@
         <img
           :src="`image/library/${book.cover}`"
           class="card-img-top"
+          style="width: 100%; height: 15rem;"
         />
         <div class="card-body">
           <div class="card-text">
@@ -57,11 +58,11 @@
               <div class="col-md-12">
                 <h1>{{ modalData.title }}</h1>
               </div>
-              <div class="col-md-6">
+              <div class="col-md-6 mb-5">
                 <img
                 :src="`image/library/${modalData.cover}`"
                   class="rounded"
-                  style="width: 100%; height: 15vw; object-fit: cover;"
+                  style="width: 100%; height: 15rem; object-fit: cover;"
                 />
               </div>
               <div class="col-md-6">
@@ -69,15 +70,15 @@
                   <span style="font-weight:bold">{{ $t("Title") }}:</span>
                   <p>{{modalData.title}}</p>
                 </div>
-                <div>
+                <div v-if="modalData.author">
                   <span style="font-weight:bold">{{ $t("Author") }}:</span>
                   <p>{{modalData.author}}</p>
                 </div>
-                <div>
+                <div v-if="modalData.isbn">
                   <span style="font-weight:bold">ISBN:</span>
                   <p>{{modalData.isbn}}</p>
                 </div>
-                <div>
+                <div v-if="modalData.publisher">
                   <span style="font-weight:bold">{{ $t("Publisher") }}:</span>
                   <p>{{modalData.publisher}}</p>
                 </div>
@@ -85,12 +86,12 @@
                   <span style="font-weight:bold">{{ $t("Pages") }}:</span>
                   <p>{{modalData.pages}}</p>
                 </div>
-                <div>
+                <div  v-if="modalData.publicationDate">
                   <span style="font-weight:bold">{{ $t("Publication Date") }}:</span>
                   <p>{{modalData.publicationDate}}</p>
                 </div>
               </div>
-              <div class="col-md-12">
+              <div class="col-md-12"  v-if="modalData.description">
                 <h3>{{ $t("Description") }}</h3>
                 <p>
                     {{modalData.description}}
@@ -99,7 +100,7 @@
             </div>
           </div>
           <div class="modal-footer">
-            <a href="https://drive.google.com/file/d/1fdUtRAjQ0As5P6aLp4mcMUoz3uPwLeXu/view?usp=sharing" target="_blank">
+            <a :href="`${modalData.link}`" target="_blank">
               <button type="button" class="btn btn-secondary">{{ $t("Read Book") }}</button>
             </a>
           </div>

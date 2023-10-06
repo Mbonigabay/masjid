@@ -11,34 +11,52 @@ function readAFile(fileName) {
 
 const programs = [
   {
-    name: "Quran School",
+    name: "Quran School for Children",
     masjid: "kicukiro-gasharu",
     image: "quran_school.jpg",
-    preview: "Quran school for children",
+    preview: "Quran School for Children",
     reoccurence: "Every weekend",
-    time: "9:00-12:00",
+    time: "14:00-17:00",
     description: {
       en: readAFile("kicukiro-gasharu_quran_school.en.md"),
       kin: readAFile("kicukiro-gasharu_quran_school.kin.md"),
     },
   },
   {
-    name: "Amawayiza",
+    name: "Quran School for Women",
     masjid: "kicukiro-gasharu",
-    image: "amawayiza.jpg",
-    preview: "Islamic studies on different topic",
-    reoccurence: "Everyday",
-    time: "15:00-16:00",
-    description: readAFile("kicukiro-gasharu_amawayiza.md"),
+    image: "quran_school_women.jpg",
+    preview: "Quran School for Women",
+    reoccurence: "Every Monday and Wednesday",
+    time: "14:00-15:00",
+    description: {
+      en: readAFile("kicukiro-gasharu_quran_school_women.en.md"),
+      kin: readAFile("kicukiro-gasharu_quran_school_women.kin.md"),
+    },
   },
   {
     name: "Women gathering",
     masjid: "kicukiro-gasharu",
     image: "women_gathering.jpg",
-    preview: "Islamic studies for women.",
+    preview: "Masjid Women Community Gathering.",
+    reoccurence: "Every Friday",
+    time: "14:00-15:00",
+    description: {
+      en: readAFile("kicukiro-gasharu_women_gathering.en.md"),
+      kin: readAFile("kicukiro-gasharu_women_gathering.kin.md"),
+    },
+  },
+  {
+    name: "Youth gathering",
+    masjid: "kicukiro-gasharu",
+    image: "youth_gathering.jpg",
+    preview: "Youth Women community Gathering",
     reoccurence: "Every Sunday",
-    time: "9:00-12:00",
-    description: readAFile("kicukiro-gasharu_women_gathering.md"),
+    time: "16:00-17:00",
+    description: {
+      en: readAFile("kicukiro-gasharu_women_gathering.en.md"),
+      kin: readAFile("kicukiro-gasharu_women_gathering.kin.md"),
+    },
   },
 ];
 

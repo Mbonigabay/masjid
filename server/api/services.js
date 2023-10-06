@@ -23,41 +23,51 @@ const services = [
     name: "Divorce",
     icon: "fa-solid fa-heart-crack",
     preview: "Talaq & Khulu'",
-    description:
-      "Quickly design and customize responsive mobile-first sites withBootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system,extensive prebuilt components, and powerful JavaScript plugins.",
+    description: {
+      en: readAFile("divorce.en.md"),
+      kin: readAFile("divorce.kin.md"),
+    },
   },
   {
     name: "Cemetery",
     icon: "fa-solid fa-hourglass",
     preview: "Janazah/In Case of Death",
-    description:
-      "Quickly design and customize responsive mobile-first sites withBootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system,extensive prebuilt components, and powerful JavaScript plugins.",
+    description: {
+      en: readAFile("cemetery.en.md"),
+      kin: readAFile("cemetery.kin.md"),
+    },
   },
   {
     name: "Social Services",
     icon: "fa-solid fa-users",
     preview: "Supporting Muslims experiencing adverse living conditions.",
-    description:
-      "Quickly design and customize responsive mobile-first sites withBootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system,extensive prebuilt components, and powerful JavaScript plugins.",
+    description: {
+      en: readAFile("social.en.md"),
+      kin: readAFile("social.kin.md"),
+    },
   },
   {
-    name: "Counseling Referral",
-    icon: "fa-solid fa-handshake-angle",
-    preview: "Supporting our community through hardship.",
-    description:
-      "Quickly design and customize responsive mobile-first sites withBootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system,extensive prebuilt components, and powerful JavaScript plugins.",
-  },
-  {
-    name: "Hajj",
-    icon: "fa-solid fa-kaaba",
-    preview: "Embark or learn more about the blessed journey.",
-    description:
-      "Quickly design and customize responsive mobile-first sites withBootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system,extensive prebuilt components, and powerful JavaScript plugins.",
+    name: "Donation Services",
+    icon: "fa-solid fa-hand-holding-dollar",
+    preview: "Supporting Masdjid and its programs.",
+    description: {
+      en: readAFile("donation.en.md"),
+      kin: readAFile("donation.kin.md"),
+    },
   },
   {
     name: "Islamic Will",
     icon: "fa-regular fa-clipboard",
     preview: "Ready-to-use template",
+    description: {
+      en: readAFile("inheritance.en.md"),
+      kin: readAFile("inheritance.kin.md"),
+    },
+  },
+  {
+    name: "Counseling Referral",
+    icon: "fa-solid fa-handshake-angle",
+    preview: "Supporting our community through hardship.",
     description:
       "Quickly design and customize responsive mobile-first sites withBootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system,extensive prebuilt components, and powerful JavaScript plugins.",
   },

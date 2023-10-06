@@ -50,9 +50,10 @@ const rmc = {
   },
   contact: {
     email: "Masdjiddarusalam@gmail.com",
-    phone: "+250785304366",
+    phone: "+250788701081",
     youtube: "masdjidgasharu",
-    instagram: "masdjid.rw"
+    instagram: "masdjid.rw",
+    tiktok: "masdjid.rw"
   },
 };
 

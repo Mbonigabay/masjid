@@ -35,13 +35,13 @@
       aria-hidden="true"
     >
       <div
-        class="modal-dialog modal-dialog-centered"
+        class="modal-dialog modal-dialog-centered modal-lg"
         role="document"
       >
         <div class="modal-content">
           <div class="modal-header">
             <h3 class="modal-title text-center" id="serviceModallLongTitle">
-              {{ modalData.name }}
+             {{ modalData.name }}
             </h3><button
               type="button"
               class="close btn border-0"
