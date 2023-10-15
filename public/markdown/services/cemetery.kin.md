@@ -4,7 +4,7 @@ Umusigiti wacu utanga serivisi zitandukanye zogufasha gushyingura abakunzi bawe 
 
 Dutanga serivisi zikurikira:
 
-* Isuku no kwambara abapfuye ku kigo nderabuzima cya Rwampala.
+* Isuku no kwambika abapfuye ku kigo nderabuzima cya Rwampara.
 * Salat al-Janaza (isengesho ryo gushyingura) ku musigiti
 * Gushyingura mu irimbi (Irimbi rya Nyamirambo)
 

@@ -7,7 +7,7 @@ Dutanga serivisi zikurikira zita ku mibereho:
 * Gahunda ya Iftar muri Ramadhan: Dutanga amafunguro kubuntu kubisonzesha mukwezi kwa Ramadhan.
 * Kwishura Mutuelle de Sante k'ubakene: Dufasha abadashoboye kwishyura ubwishingizi bwubuzima.
 * Gusura abarwayi: Turasura abarwayi n'abasaza bo mu gace kacu kugira ngo dutange ubufasha n'ubusabane.
-* Gufasha abatishoboye babarirwa mumusigiti wacu nabandi bafite ibibazo bikomeye: Dutanga infashanyo nubundi bufasha kubafite ibibazo kugirango babone ibyo bakeneye byibanze.
+* Gufasha abatishoboye babarirwa mumusigiti wacu nabandi bafite ibibazo bikomeye: Dutanga imfashanyo nubundi bufasha kubafite ibibazo kugirango babone ibyo bakeneye byibanze.
 * Gushishikariza abatishoboye kuba ba rwiyemezamirimo: Dutanga amahugurwa n'inkunga yo gufasha abantu gutangiza imishinga yabo.
 * Gufasha abasilamu bashya binyuze m'umahugurwa nuburere: Dutanga amasomo n'amahugurwa kugirango dufashe abizera bashya kwiga ibijyanye n'ubuyisilamu no kwinjiza mumuryango w'abayisilamu.
 

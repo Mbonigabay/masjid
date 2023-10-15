@@ -3,7 +3,7 @@
     <h3 class="pb-2 border-bottom border-success section-title">
       {{ $t("Library") }}
     </h3>
-    <div class="d-flex flex-row justify-content-center justify-content-md-start gap-5 flex-wrap">
+    <div class="d-flex flex-row justify-content-center justify-content-md-between gap-2 flex-wrap">
       <div
         class="card"
         @click.prevent="toggleModal(book)"

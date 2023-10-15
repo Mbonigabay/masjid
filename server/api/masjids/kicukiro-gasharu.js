@@ -37,7 +37,7 @@ const rmc = {
       image: "kicukiro-gasharu_secretary.jpg",
     },
     {
-      name: "xxx",
+      name: "Hussein Mulisa",
       title: "Accountant",
       image: "kicukiro-gasharu_accountant.jpg",
     },
